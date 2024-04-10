@@ -4,36 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Leftovers Recipe Generator</title>
   </head>
   <body>
-    <h1>Leftover Recipe Generator</h1>
-    <main>
+    <div class="container">
+      <h1>Leftover Recipe Generator</h1>
       <form>
-        <input type="text" placeholder="Enter your Leftovers 🥒" />
-        <input type="submit" />
+        <input
+          type="text"
+          placeholder="Enter your Leftovers 🥒"
+          class="instructions"
+        />
+        <input type="submit" class="submit-button" />
       </form>
-      <div>
-        Heat the oil in a saucepan over a medium heat. Add the onion and fry for
-        10 mins or until softened and turning translucent. Add the curry paste
-        and cook for 1 min. Stir in the coconut milk, chicken stock and risotto
-        rice and bring to a simmer. Cook for 15-20 mins or until the rice is
-        tender.
-      </div>
-      <div>
-        Bring a pan of water to a simmer, add the eggs and cook for 7 mins. Stir
-        the chicken and sweetcorn into the soup and cook for 5 mins to warm
-        everything through. Season to taste and finish with the lime juice.
-        Gently peel the shells off the eggs and cut them in half. Top the soup
-        with the eggs and spring onions.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by <a href="/">Verity Masters</a>, is
-      open-sourced on <a href="/">Github</a> and is hosted on
-      <a href="/">Netlify.</a>
-    </footer>
+      <main>
+        <p>
+          Heat the oil in a saucepan over a medium heat. Add the onion and fry
+          for 10 mins or until softened and turning translucent. Add the curry
+          paste and cook for 1 min. Stir in the coconut milk, chicken stock and
+          risotto rice and bring to a simmer. Cook for 15-20 mins or until the
+          rice is tender.
+        </p>
+        <p>
+          Bring a pan of water to a simmer, add the eggs and cook for 7 mins.
+          Stir the chicken and sweetcorn into the soup and cook for 5 mins to
+          warm everything through. Season to taste and finish with the lime
+          juice. Gently peel the shells off the eggs and cut them in half. Top
+          the soup with the eggs and spring onions.
+        </p>
+      </main>
+      <footer>
+        This AI project was coded by <a href="/">Verity Masters</a>, is
+        open-sourced on <a href="/">Github</a> and is hosted on
+        <a href="/">Netlify.</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
