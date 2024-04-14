@@ -20,11 +20,22 @@ a {
   text-decoration: none;
 }
 
-form {
+.form-container {
   padding: 30px 20px;
   background: white;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+.hint {
+  font-size: 11px;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+form {
   display: flex;
 }
 
@@ -74,4 +85,8 @@ li {
 footer {
   margin-top: 10px;
   font-size: 11px;
+}
+
+.hidden {
+  display: none;
 }

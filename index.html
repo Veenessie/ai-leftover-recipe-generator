@@ -18,17 +18,20 @@
   <body>
     <div class="container">
       <h1>Leftovers Recipe Generator</h1>
-      <form id="recipe-form">
-        <input
-          type="text"
-          placeholder="Enter your Leftovers 🥒"
-          class="instructions"
-          required
-          id="user-instructions"
-        />
-        <input type="submit" class="submit-button" />
-      </form>
-      <main id="recipe"></main>
+      <div class="form-container">
+        <form id="recipe-form">
+          <input
+            type="text"
+            placeholder="Enter your Leftovers 🥒"
+            class="instructions"
+            required
+            id="user-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">e.g 100g chocolate, 2 limes, 300g mince</div>
+      </div>
+      <main id="recipe" class="hidden"></main>
       <footer>
         This AI project was coded by <a href="/">Verity Masters</a>, is
         open-sourced on <a href="/">Github</a> and is hosted on
