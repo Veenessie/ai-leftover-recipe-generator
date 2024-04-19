@@ -86,6 +86,10 @@ footer {
   margin-top: 10px;
   font-size: 11px;
 }
+img {
+  max-width: 30%;
+  margin-top: 20px;
+}
 
 .hidden {
   display: none;
